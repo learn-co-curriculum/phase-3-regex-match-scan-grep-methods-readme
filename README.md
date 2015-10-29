@@ -50,12 +50,13 @@ Using parentheses in our regex allows us to create 'groups' that we can refer to
 ```
 numbers = "202-555-0192 202-555-0147 202-555-0131 202-555-0116 202-555-0192 202-555-0197"
 
-numbers.scan(/(\d+)-(\d+)-(\d+)/)
+number_breakdown = numbers.scan(/(\d+)-(\d+)-(\d+)/)
 => [["202", "555", "0192"], ["202", "555", "0147"], ["202", "555", "0131"], ["202", "555", "0116"], ["202", "555", "0192"], ["202", "555", "0197"]] 
+
+number_breakdown[0]
+=> ["202", "555", "0192"]
+
+number_breakdown[0][1]
+=> "555"
+
 ```
-
-
-
-## Resources
-
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
