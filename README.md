@@ -27,6 +27,9 @@ The `match` method return the first item in your string that match a given Regul
 ```
 "The rain in Spain lies mainly in the plain".match(/\w+ain/)
 => #<MatchData "rain"> 
+
+"The rain in Spain lies mainly in the plain".match(/France/)
+=> nil
 ```
 More often than not, we use the result of the match method as a boolean, indicating the existence of the pattern in the given string.
 
