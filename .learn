@@ -2,7 +2,7 @@ tags:
   - regex
   - match
   - grep
-  -scan
+  - scan
 languages:
   - ruby
 resources: 0
