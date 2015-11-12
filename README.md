@@ -35,7 +35,7 @@ More often than not, we use the result of the match method as a boolean, indicat
 
 ### Grep
 
-Grep is an enumerable method for pattern searching in arrays and hashes. Similar to `seek`, `grep` will return an array of matching items from an array.
+Grep is an enumerable method for pattern searching in arrays and hashes. Similar to `scan`, `grep` will return an array of matching items from an array.
 
 ```ruby
 names = ["Jeri Faria", "Althea Voth", "Audry Donoho", "Scotty Chaves", "Lance Barrio", "Zachary Newhall", "Stefany Janey", "Tressie Kinsel", "Raven Grimsley", "Marketta Gaylor", "Leota Crowe", "Mazie Norman", "Damien Loffredo"]
