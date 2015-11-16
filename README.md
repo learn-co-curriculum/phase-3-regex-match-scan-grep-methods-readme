@@ -23,7 +23,7 @@ The `scan` method returns an array of **all** items in your string that match a 
 ```
 
 ### Match
-The `match` method return the first item in your string that match a given Regular Expression (as a `MatchData` object. For example:
+The `match` method returns the first item in your string that match a given Regular Expression (as a `MatchData` object. For example:
 ```
 "The rain in Spain lies mainly in the plain".match(/\w+ain/)
 => #<MatchData "rain"> 
