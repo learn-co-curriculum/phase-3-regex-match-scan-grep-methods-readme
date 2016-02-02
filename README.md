@@ -23,7 +23,7 @@ The `scan` method returns an array of **all** items in your string that match a 
 ```
 
 ### Match
-The `match` method returns the first item in your string that match a given Regular Expression (as a `MatchData` object. For example:
+The `match` method returns the first item in your string that matches a given Regular Expression (as a `MatchData` object. For example:
 ```
 "The rain in Spain lies mainly in the plain".match(/\w+ain/)
 => #<MatchData "rain"> 
@@ -64,4 +64,4 @@ number_breakdown[0][1]
 
 ```
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/regex-match-scan-grep-methods-readme' title='Ruby Methods with Regex'>Ruby Methods with Regex</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/regex-match-scan-grep-methods-readme'>Ruby Methods with Regex</a> on Learn.co and start learning to code for free.</p>
