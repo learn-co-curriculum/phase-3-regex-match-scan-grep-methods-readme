@@ -1,5 +1,5 @@
 
-# Ruby Methods with Regex
+# Ruby Methods with RegEx
 
 ## Objectives
 
@@ -9,7 +9,7 @@
 - Understand the diff between `match` and `scan`
 
 
-## Ruby Methods with Regex
+## Ruby Methods with RegEx
 
 You've learned the basics of writing Regular Expressions in Ruby. In this lesson we'll learn how to use regular expressions with the `match` and `scan` ruby methods. We'll also learn to use capture groups.
 
@@ -50,7 +50,7 @@ names.grep(/^\w{5}\s/)
 ```
 
 ### Capture Groups
-Using parentheses in our regex allows us to create 'groups' that we can refer to in our scan/match/grep methods as indexes in an array. In the example below we create three capture groups for the three sets of digits in a phone number. Now, when we scan a list of numbers, each phone number is broken down into subgroups based on the capture groups we built in our regular expressions:
+Using parentheses in our RegEx allows us to create 'groups' that we can refer to in our scan/match/grep methods as indexes in an array. In the example below we create three capture groups for the three sets of digits in a phone number. Now, when we scan a list of numbers, each phone number is broken down into subgroups based on the capture groups we built in our regular expressions:
 
 ```
 numbers = "202-555-0192 202-555-0147 202-555-0131 202-555-0116 202-555-0192 202-555-0197"
@@ -63,6 +63,4 @@ number_breakdown[0]
 
 number_breakdown[0][1]
 => "555"
-
 ```
-
