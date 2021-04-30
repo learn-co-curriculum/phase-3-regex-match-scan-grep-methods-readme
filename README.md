@@ -1,7 +1,7 @@
 
-# Ruby Methods with RegEx
+# Match Scan and Grep Methods
 
-## Objectives
+## Learning Goals
 
 - Use the `match` method
 - Use capture groups
